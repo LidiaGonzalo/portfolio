@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /descargas/
+Sitemap: http://lidiagonzalo.hol.es/sitemap.xml

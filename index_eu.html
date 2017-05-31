@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Lidia Gonzaloren webgunea,HTML5 CSS3 eta responsive design"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--viewport:el ancho de la pág se va a ver conforme el ancho del dispositivo, y la escala inicial es 1 -->
+  <title>Lidia Gonzaloren webgunea</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+   <!--fontello -->
+  <link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+  <link type="text/css" rel="stylesheet" href="css/fontello-87841966/css/zocial.css" />
+  <link type="text/css" rel="stylesheet" href="css/fontello-76a18672/css/zocial.css" />
+  <!--font-awesome-->
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script><!-- ultima versión jquery -->
+  <link href='http://fonts.googleapis.com/css?family=Abel|Wire+One|Mr+Dafoe' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/scrollSuave.js"></script>
+</head>
+<body>
+<div class="idiomas">
+     <ul>
+         <li><a href="index.html">ES</a></li>
+         <li><a href="index_eu.html">EU</a></li>
+         <li><a href="index_en.html">EN</a></li>
+     </ul>
+ </div>
+  <nav class="header">
+    <ul id="menuInicio">
+      <li><a href="javascript:moveTo(position('inicio'),1000)">HASIERA</a></li>
+      <li><a href="javascript:moveTo(position('sobreMi'),1000)">NOR NAIZ</a></li>
+      <li><a href="javascript:moveTo(position('trabajos'),1000)">LANAK</a></li>
+      <li><a href="javascript:moveTo(position('contacto'),1000)">KONTAKTU</a></li>
+      <li><a href="javascript:moveTo(position('creditos'),1000)">KREDITUAK</a></li>
+    </ul>
+  </nav>
+  <section id="inicio">
+    <header><h1>LIDIA GONZALO LÓPEZ</h1></header>
+  </section>
+  <div id="sobreMi">
+    <section id="sobreMi-izq">
+        <div>
+         <img class="avatar" src="img/avatar300x300.png" alt="foto perfil"/>
+        </div>
+         <h1>LIDIA GONZALO LÓPEZ</h1>
+         <h3><i class="fa fa-code" aria-hidden="true"></i></h3>
+         <h3>APLIKAZIO GARATZAILEA</h3>
+    </section>
+    <section id="sobreMi-dcha">
+        <h1 class="titulos">Nor naiz</h1>
+        <p class="justificado">
+            Lidia Gonzalo López Bilboko informatika programatzailea naiz. Back-end <strong>JAVA</strong> eta <strong>C#</strong> prestakuntza. Front-end web garapena <strong>HTML5</strong> eta <strong>CSS3</strong>, moldagarri webguneak <strong> -Responsive Design-</strong>. Datu basez ditudan ezaupideak  <strong>MySQL</strong> eta <strong>ORACLE</strong> dira. Gailu mugikorrak-programazioa <strong>ANDROID-ekin</strong>
+        </p>
+    </section>
+  </div>
+  <section id="trabajos"><h1 class="titulos">Lanak</h1>
+      <div class="wrapper">
+        <div class="grid">
+            <div class="grid-item">
+                <figure>
+                    <img class="greyScale" src="img/crudSpring_converted.png" alt="spring aplikazioa">
+                    <figcaption>
+                        CRUD aplikazioa <strong>JAVA</strong> egina. <strong>BootStrap</strong>, <strong>MVC Spring-ean</strong> oinarritutako web aplikazioa eta <strong>MySQL-ekin</strong>.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="greyScale" src="img/aspNet.png" alt="asp.net aplikazioa">
+                    <figcaption>
+                        CRUD aplikazioa <strong>C#</strong> egina. <strong>BootStrap</strong> eta <strong>ASP.NET MVC</strong> framework-ekin eta <strong>tSQL</strong>.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="img/webPersonal.png" alt="">
+                    <figcaption>
+                          Lidia Gonzalo webgune pertsonala. <strong>HTML5</strong> <strong>CSS3</strong> eta <strong>javaScript</strong> teknologiarekin.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="img/cutrePong_converted.png" alt="">
+                    <figcaption>
+                        <em>Cutre Tenis</em> ordenagiluarentzat <strong>JAVA-rekin</strong> bideo-jokoa egina da. Retro itxurarekin, garai bateko 8 bit-eko bideo-jokoak bezala. <strong>ANDROID</strong> bertsioa laster.
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="contacto">
+      <h1 class="titulos">Kontaktu</h1>
+      <div>
+      <ul class="horizontal">
+          <li>
+            <a href="www.github.com"><i class='icon-github-circled'></i></a>
+          </li>
+           <li>
+            <a href="mailto:lidiagonzalolopez@gmail.com"><i class='icon-gmail'></i></a>
+            <p>lidiagonzalolopez@gmail.com</p>
+          </li>
+          <li><a><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="descargas/cvLidiaGonzaloLopez.pdf" target="blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+          <p>CV-a Deskargatzea</p>
+          </li>
+      </ul>
+      </div>
+  </section>
+  <section id="creditos">
+  <h1 class="titulos">Kredituak</h1>
+  <h2>Aurki ezazu leku honen kodea: <a class="git"  href="https://github.com/LidiaGonzalo/" target="blank"><i class='icon-github-circled'></i></a></h2>
+      <p>Lan honetan erabilitako tresnak:</p>
+      <p>HTML5 <i class="fa fa-html5" aria-hidden="true"></i></p>
+      <p>CSS3 <i class="fa fa-css3" aria-hidden="true"></i></p>
+      <p>JavaScript</p>
+      <p><span>Nire txiki ekarpena ;)</span></p>
+  </section>
+</body>
+</html>

@@ -1,0 +1,372 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+    font-family:"Cheveuxdange";
+    src: url("../fuentes/Cheveuxdange/Cheveuxdange.eot?")format("eot"),
+         url("../fuentes/Cheveuxdange/Cheveuxdange.woff") format("woff"),
+         url("../fuentes/Cheveuxdange/Cheveuxdange.ttf") format("truetype"),
+         url("../fuentes/Cheveuxdange/Cheveuxdange.svg#Cheveuxdange") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+
+	font-family: 'Oxygene 1 Regular';/*marcianos*/
+	src: url('../fuentes/Oxygene1/OXYGENE1-webfont.eot');
+	src: url('../fuentes/Oxygene1/OXYGENE1-webfont.eot?#iefix') format("embedded-opentype"),
+		url('../fuentes/Oxygene1/OXYGENE1-webfont.woff') format("woff"),
+		url('../fuentes/Oxygene1/OXYGENE1-webfont.ttf') format("truetype"),
+		url('../fuentes/Oxygene1/OXYGENE1-webfont.svg#Oxygene') format("svg");
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+@font-face {
+	font-family: 'PWChalk';
+	src: url('../fuentes/pwchalk/PWChalk.eot');
+	src: url('../fuentes/pwchalk/PWChalk.eot?#iefix') format("embedded-opentype"),
+		url('../fuentes/pwchalk/PWChalk.woff') format("woff"),
+		url('../fuentes/pwchalk/PWChalk.ttf') format("truetype"),
+		url('../fuentes/pwchalk/PWChalk.svg#PWChalk') format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';/*menú*/
+    src: url('../fuentes/openSansRegular/OpenSans-Regular-webfont.eot');
+    src: url('../fuentes/openSansRegular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/openSansRegular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fuentes/openSansRegular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fuentes/openSansRegular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'black_roseregular';/*section*/
+    src: url('../fuentes/blackRose/BLACKR-webfont.eot');
+    src: url('../fuentes/blackRose/BLACKR-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/blackRose/BLACKR-webfont.woff') format('woff'),
+         url('../fuentes/blackRose/BLACKR-webfont.ttf') format('truetype'),
+         url('../fuentes/blackRose/BLACKR-webfont.svg#black_roseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"LeagueGothic";/*avatar Lidia*/
+	src:url("../fuentes/LeagueGothic/League_Gothic.eot?") format("eot"),
+		url("../fuentes/LeagueGothic/League_Gothic.woff") format("woff"),
+		url("../fuentes/LeagueGothic/League_Gothic.ttf") format("truetype"),
+		url("../fuentes/LeagueGothic/League_Gothic.svg#LeagueGothic") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+*{/*reseteo universal, asi el fondo del footer pegado a la ventana del navegador*/
+    margin: 0;
+	padding: 0;
+
+}
+.idiomas{
+    font-family: "open_sansregular";
+    font-size: 60%;
+	padding-right: 10px;
+	padding-top: 10px;
+	position: fixed;
+    left: 4px;
+}
+.idiomas ul li:after{
+    content: '|';
+	color:#ffffff;
+    font-weight: bold;
+    padding: 0 12px 0 9px;
+}
+.idiomas li{
+	display: inline-block;/*menu en horizontal*/
+}
+.idiomas ul li a{
+    color:#ffffff;
+	list-style:none;/*quitar viñetas menú*/
+}
+nav a:hover{
+	border-bottom:solid;
+	border-bottom-color: #f7484e;
+}
+
+nav{
+	font-family: "open_sansregular";
+	padding-right: 10px;
+	padding-top: 10px;
+	position: fixed;
+	right:2px;
+}
+nav ul li:after {
+    content: '/';
+	color:#ffffff;
+    font-weight: bold;
+    padding: 0 12px 0 9px;
+}
+.idiomas ul li:last-child:after,#creditosMenu:after, nav ul li:last-child:after{/*quitar '/' de contacto*/
+    content:none;
+    font-weight: bold;
+}
+nav li{
+	display: inline-block;/*menu en horizontal*/
+
+}
+nav ul{
+	list-style:none;/*quitar viñetas menú*/
+}
+.avatar{
+	max-width: 20%;
+    margin: auto;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    filter:grayscale(1);
+}
+.avatar:hover {
+    filter:sepia(1);
+}
+#inicio{
+	background:url('../img/fondo.jpg') no-repeat center center fixed;;
+	background-size: cover;
+}
+section header h1{
+	color: #fff;
+	font-family: "Cheveuxdange";
+	font-size: 3em;
+	padding-left: 5px;
+	padding-top: 10%;
+
+}
+#inicio,#sobreMi-izq,#sobreMi-dcha,#trabajos,#contacto,#creditos{
+	min-height: 100vh;/**/
+}
+#menuInicio a, #menuContacto a, #menuTrabajo a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#contacto{
+	background:#f7484e;
+}
+#sobreMi{
+    display:flex;
+}
+#sobreMi-izq{
+	background: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+
+}
+#sobreMi-dcha{
+	background: #999999;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+#trabajos{
+	background: #292929;
+
+}
+#creditos{
+    color:#ffffff;
+    font-family: "open_sansregular";
+    text-align: center;
+    background: #292929;
+}
+h2 a i
+{
+    color:#ffffff;
+    font-size: 150%;
+
+}
+h2 a i:hover{
+   text-decoration:underline;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:#ffffff;
+    list-style: none;
+
+}
+.horizontal a  {
+    font-size: 700%;
+    color:#ffffff;
+}
+.horizontal a :hover{
+    color:#292929;
+}
+.horizontal #button{
+      padding: 17px 40px 17px 80px;
+    font-weight: bold;
+    font-size: 200%;
+    border-radius: 30px;
+    border: 3px solid white;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    color:#ffffff;
+
+}
+h1{
+    color:#f7484e;
+    font-family:"LeagueGothic";
+    font-size:250%;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+}
+h3{
+    font-family:"LeagueGothic";
+    font-weight: bold;
+    font-size: 125%;
+    padding: 2px;
+    text-align: center;
+}
+ .titulos{
+    color:#ffffff;
+    font-family: "open_sansregular";
+    font-size: 300%;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+span{
+    color:#f7484e;/*pequeña aportación*/
+}
+
+/*galería*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.grid {
+  max-width:100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.grid-item {
+  min-width: 40%;
+  max-width: 40%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 40%;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-bottom: 1rem;
+}
+.grid-item a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding: 2rem 0;
+  color: #e4e4e8;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.grid-item figure {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.grid-item figure img {
+  display: block;
+  max-width: 100%;
+}
+.grid-item figcaption {
+  display: block;
+  padding: .625rem .5rem;
+  background: #474952;
+}
+
+.justificado{
+    font-family: "open_sansregular";
+    padding: 5%;
+    text-align : justify;
+}
+h2 {
+    color: #ffffff;
+    font-family: "open_sansregular";
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+}
+em,strong{
+    color:#f7484e;
+}
+p strong{
+    color:black;
+}
+.git:hover{
+    text-decoration: underline;
+}
+.icon{
+    display: none;
+}
+.greyScale{
+    filter:grayscale(1);
+}
+@media screen and (max-width:800px){/*tablets*/
+    .icon{
+        display: block;
+        float: right;
+    }
+    header nav {
+        width:20%;
+        background: #000000;
+        opacity:0.8;
+        height: 100%;
+        padding:0;
+        left: -100%;
+        position: absolute;
+    }
+    header nav ul li{
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgba (255,255,255,.3);
+        padding: 10px;
+    }
+    header nav ul li:after {
+        content:none;
+    }
+    header nav ul :hover{
+    border-bottom: none;
+    background:#262626;
+    }
+    .horizontal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-grow: 1;
+
+   }
+
+}
+@media screen and (max-width:600px){
+    header nav ul li {
+        font-size: 60%;
+    }
+}
+

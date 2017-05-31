@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="página web personal de Lidia Gonzalo López realizada con HTML5, CSS3, javaScript y responsive web design. Portafolio personal"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--viewport:el ancho de la pág se va a ver conforme el ancho del dispositivo, y la escala inicial es 1 -->
+  <title>página web personal de Lidia Gonzalo López</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <!--font-awesome-->
+  <link type="text/css" rel="stylesheet" href="fontello/css/iconset.css" />
+  <!--fontello -->
+  <link type="text/css" rel="stylesheet" href="css/fontello-87841966/css/zocial.css" />
+  <link type="text/css" rel="stylesheet" href="css/fontello-76a18672/css/zocial.css" />
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" ><!-- color="#5bbad5" -->
+  <meta name="theme-color" content="#ffffff">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script><!-- ultima versión jquery -->
+  <link href='http://fonts.googleapis.com/css?family=Abel%7CWire+One%7CMr+Dafoe' rel='stylesheet' type='text/css'>
+  <link rel="author" href="http://lidiagonzalo.hol.es/humans.txt" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="http://lidiagonzalo.hol.es/sitemap.xml" />
+  <link rel="canonical" href="http://lidiagonzalo.hol.es/" />
+  <script type="text/javascript" src="js/scrollSuave.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <!--google analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-89250040-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="idiomas">
+     <ul>
+         <li><a href="index.html">ES</a></li>
+         <li><a href="index_eu.html">EU</a></li>
+         <li><a href="index_en.html">EN</a></li>
+     </ul>
+ </div>
+ <header>
+    <div class="menu_bar">
+			<a class="icon" href="#"><img src="img/menuBlanco.svg" alt="menu hamburguesa" title="menu hamburguesa"/></a>
+     </div>
+    <nav>
+        <ul class="topnav" id="menuInicio">
+            <li class="menu"><a href="javascript:moveTo(position('inicio'),1000)">INICIO</a></li>
+            <li class="menu"><a href="javascript:moveTo(position('sobreMi'),1000)">SOBRE MI</a></li>
+            <li class="menu"><a href="javascript:moveTo(position('trabajos'),1000)">TRABAJOS</a></li>
+            <li class="menu"><a href="javascript:moveTo(position('contacto'),1000)">CONTACTO</a></li>
+            <li class="menu" id="creditosMenu"><a href="javascript:moveTo(position('creditos'),1000)">CRÉDITOS</a></li>
+        </ul>
+    </nav>
+ </header>
+  <section id="inicio">
+    <header><h1>LIDIA GONZALO LÓPEZ</h1></header>
+  </section>
+  <div id="sobreMi">
+    <section id="sobreMi-izq">
+        <div>
+         <img class="avatar" src="img/avatar300x300.png" alt="avatar" title="avatar"/>
+        </div>
+         <h1>LIDIA GONZALO LÓPEZ</h1>
+         <h3><i class="fa fa-code" aria-hidden="true"></i></h3>
+         <h3>DESARROLLADORA DE APLICACI0NES</h3>
+    </section>
+    <section id="sobreMi-dcha">
+        <h1 class="titulos">Sobre mi</h1>
+        <p class="justificado">
+            Soy Lidia Gonzalo López programadora imformática de Bilbao. Con formación back-end en lenguajes de programación <strong>JAVA</strong> y <strong>C#</strong>. Desarrollo web front-end <strong>HTML5</strong> y <strong>CSS3</strong>, páginas web adaptables a todos los dispositivos<strong> -Responsive Design-</strong>. Conocimientos en bases de datos <strong>MySQL</strong> y <strong>ORACLE</strong>. Programación de dispositivos móviles en <strong>ANDROID</strong>.
+        </p>
+    </section>
+  </div>
+  <section id="trabajos"><h1 class="titulos">Trabajos</h1>
+      <div class="wrapper">
+        <div class="grid">
+            <div class="grid-item">
+                <figure>
+                    <img class="greyScale" src="img/crudSpring_converted.png" alt="CRUD spring" title="CRUD spring"/>
+                    <figcaption>
+                         Aplicación CRUD realizada en <strong>JAVA</strong> utilizando <strong>BootStrap</strong>, <strong>Spring MVC</strong> y <strong>MySql</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="greyScale" src="img/aspNet.png" alt="CRUD biblioteca" title="CRUD biblioteca"/>
+                    <figcaption>
+                        Aplicación CRUD realizada en <strong>C#</strong> utilizando <strong>BootStrap</strong>, <strong>ASP.NET MVC</strong> y <strong>tSQL</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="img/webPersonal.png" alt="web personal" title="web personal"/>
+                    <figcaption>
+                         Mi página web personal, utilizando <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>JavaScript</strong>
+                         <a class="git"  href="https://github.com/LidiaGonzalo/portfolio" target="_blank">Ir a<i  class="icon-github-circled git"></i></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="img/cutrePong_converted.png" alt="cutre pong" title="cutre pong"/>
+                    <figcaption>
+                        <h2>Cutre Tenis</h2>
+                        <em>Cutre Tenis</em> es un videojuego desarrollado para ordenador en lenguaje <strong>JAVA</strong> con estética retro, queriendo simular el aspecto de los videojuegos antiguos de 8 bits. Versión del juego en <strong>ANDROID</strong> para dispósitivos móviles actualmente en desarrollo. <a class="git"  href="https://github.com/LidiaGonzalo/cutreTenis" target="_blank">Ir a<i class="icon-github-circled git"></i></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="contacto">
+      <h1 class="titulos">Contacto</h1>
+      <div>
+      <ul class="horizontal">
+          <li>
+            <a href="www.github.com"><i class='icon-github-circled'></i></a>
+          </li>
+           <li>
+            <a href="mailto:lidiagonzalolopez@gmail.com"><i class='icon-gmail'></i></a>
+            <p>lidiagonzalolopez@gmail.com</p>
+          </li>
+          <li><a href="https://es.linkedin.com/in/lidia-gonzalo-lópez"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="descargas/cvLidiaGonzaloLopez.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+          <p>Descargar CV</p>
+          </li>
+      </ul>
+      </div>
+  </section>
+  <section id="creditos">
+  <h1 class="titulos">Créditos</h1>
+  <h2>El código de ésta página está disponible en: <a class="git"  href="https://github.com/LidiaGonzalo/portfolio" target="_blank"><i class='icon-github-circled'></i></a></h2>
+      <p>web realizada con:</p>
+      <p>HTML5 <i class="fa fa-html5" aria-hidden="true"></i></p>
+      <p>CSS3 <i class="fa fa-css3" aria-hidden="true"></i></p>
+      <p>JavaScript</p>
+      <p><span>Mi pequeña aportación ;)</span></p>
+  </section>
+</body>
+</html>
